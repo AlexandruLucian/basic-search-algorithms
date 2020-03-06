@@ -18,7 +18,7 @@ public class BruteForceAlgorithm {
 
 		for (double i = startingPointX; i < END_X; i += dx) {
 			if (f(i) > max) {
-				max = f(1);
+				max = f(i);
 			}
 		}
 		System.out.println("The maximum value si f(x) = " + max);
